@@ -1,0 +1,272 @@
+body{
+    margin: 0px;
+    margin: 0px;
+    font-family: "font-family: 'Source Serif 4', serif;";
+    font-size: 11pt;
+    font-weight: 300;
+    line-height: 1.6;
+    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbanner-background&psig=AOvVaw3HTOocrqc_vG9pnMXePp41&ust=1697697946279000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjKiuv__oEDFQAAAAAdAAAAABAD"); */
+    /* color: #6c6c6c; */
+   background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbanner-background&psig=AOvVaw3HTOocrqc_vG9pnMXePp41&ust=1697697946279000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjKiuv__oEDFQAAAAAdAAAAABAD");;
+    background-color: rgba(113, 190, 137, 0.999);
+}
+
+#header{
+    position: relative;
+    height: 100px;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px;
+}
+
+div{
+    display: block;
+}
+
+/*для всех eлементов страницы*/
+*,
+*::before,
+*::after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* logo */
+
+#logo{
+    position:absolute;
+    top: 2em;
+    width: 100%;
+}
+
+#logo h1{
+    display: inline-block;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ED7070;
+    padding-right: 0.5em;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.h1,h2,h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #454445;
+}
+
+.h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#logo span {
+    display: inline-block;
+    padding-right: 0.5em;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-size: 0.90em;
+}
+
+.bolt{
+    text-decoration: none;
+}
+
+.a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.a{
+    color: black;
+}
+
+
+.p{
+    line-height: 180%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.p, ol, ul{
+    margin-top: 0;
+}
+
+#menu {
+    position: absolute;
+    right: 0;
+    top: 1.6em;
+}
+
+
+
+#menu ul{
+    display: inline-block;
+}
+
+.clas__ul{
+    padding: 0;
+    list-style: none;
+}
+
+.clas__ul{
+    margin-top: 0;
+}
+
+.clas__ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-block-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#menu li{
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+.clas__ul{
+    padding: 0;
+    list-style: none;
+}
+
+#menu .page__item a {
+    color: #467406;
+}
+
+#menu li a, #menu li span {
+    display: inline-block;
+    margin-left: 1px;
+    padding: 1em 1.5em 0em 1.5em;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: #FFF;
+}
+
+#header__featured{
+    padding: 10em 0em;
+    /* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fbanner-background&psig=AOvVaw3HTOocrqc_vG9pnMXePp41&ust=1697697946279000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCOjKiuv__oEDFQAAAAAdAAAAABAD"); */
+    background-position: center;
+    background-size: cover;
+}
+
+#banner {
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    font-size: 1.5em;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1200px
+}
+
+#banner h2{
+    padding-bottom: 0.5em;
+    font-weight: 400;
+    font-size: 3em;
+    color: #FFF;
+}
+
+.h2{
+
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#p{
+    line-height: 180%;
+    margin-top: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#banner .button{
+    margin-top: 2em;
+    background: #aaf80f;
+}
+
+.button{
+    display: inline-block;
+    padding: 1.3em 3em;
+    transition: opacity 0.25s ease-in-out;
+    letter-spacing: 0.20em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#banner {
+    overflow: hidden;
+    width: 1000px;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    font-size: 1.5em;
+}
+
+#banner a{
+    color: #FFF;
+}
+
+
+/* .image__1{
+    margin-left: 50%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 0%;
+    min-height: 100%;
+    min-width: 640px;
+    height: 50%;
+    width: 100em;
+} */
+
+div.image__1 {
+    position: fixed;
+    
+    top: -50%;
+    left: -50%;
+    width: 250%;
+    height: 200%;
+  }
+  
+  img {
+    display: flex;
+    position:fixed;
+    margin-top: 40px;
+    padding-left:60em;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 80%;
+    min-height: 70%;
+  }
